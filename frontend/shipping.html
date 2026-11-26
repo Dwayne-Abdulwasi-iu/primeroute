@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Estimate | PrimeRoute Cargos</title>
+    <meta name="description" content="Start a shipping estimate with PrimeRoute Cargos.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a class="nav-logo" href="index.html">
+                <i class="fas fa-route"></i>
+                <span><strong>PrimeRoute</strong><small>Cargos</small></span>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="index.html#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="index.html#tracking" class="nav-link">Track</a></li>
+                <li class="nav-item"><a href="shipping.html" class="nav-link active">Ship</a></li>
+                <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><button class="btn-login" id="loginBtn">Login</button></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="subpage-hero">
+            <div class="container">
+                <span class="section-eyebrow">PLAN YOUR SHIPMENT</span>
+                <h1>Start with a shipping estimate</h1>
+                <p>Share a few shipment details to see an indicative service rate.</p>
+                <p class="service-notice"><i class="fas fa-lock"></i> Sign in to access shipment services</p>
+            </div>
+        </section>
+        <section id="shipping" class="shipping-section">
+            <div class="container">
+                <div class="shipping-container">
+                    <div class="rate-calculator">
+                        <h3>Rate Calculator</h3>
+                        <form id="rateForm" class="rate-form">
+                            <div class="form-row">
+                                <div class="form-group"><label for="fromZip">From ZIP Code</label><input type="text" id="fromZip" name="fromZip" placeholder="12345" maxlength="5" required></div>
+                                <div class="form-group"><label for="toZip">To ZIP Code</label><input type="text" id="toZip" name="toZip" placeholder="67890" maxlength="5" required></div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group"><label for="weight">Weight (lbs)</label><input type="number" id="weight" name="weight" min="0.1" step="0.1" placeholder="1.0" required></div>
+                                <div class="form-group">
+                                    <label for="service">Service Type</label>
+                                    <select id="service" name="service" required>
+                                        <option value="">Select Service</option>
+                                        <option value="standard">Standard (3-5 days)</option>
+                                        <option value="express">Express (1-2 days)</option>
+                                        <option value="overnight">Overnight</option>
+                                        <option value="international">International</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group"><label for="length">Length (inches)</label><input type="number" id="length" name="length" min="1" placeholder="12" required></div>
+                                <div class="form-group"><label for="width">Width (inches)</label><input type="number" id="width" name="width" min="1" placeholder="8" required></div>
+                                <div class="form-group"><label for="height">Height (inches)</label><input type="number" id="height" name="height" min="1" placeholder="6" required></div>
+                            </div>
+                            <div class="form-group"><label for="value">Package Value ($)</label><input type="number" id="value" name="value" min="0" step="0.01" placeholder="100.00"></div>
+                            <button type="submit" class="btn-primary">Calculate Rate</button>
+                        </form>
+                        <div id="rateResults" class="rate-results hidden-element"></div>
+                    </div>
+                    <div class="shipping-info">
+                        <h3>Need a shipping account?</h3>
+                        <p>Create an account to manage your shipments and keep essential details together.</p>
+                        <ul class="info-list">
+                            <li><i class="fas fa-check"></i> Save shipment addresses</li>
+                            <li><i class="fas fa-check"></i> Review shipment progress</li>
+                            <li><i class="fas fa-check"></i> Keep your shipping history</li>
+                            <li><i class="fas fa-check"></i> Manage account details</li>
+                        </ul>
+                        <button class="btn-secondary" id="createAccountBtn">Create Account</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo"><i class="fas fa-route"></i><span><strong>PrimeRoute</strong><small>Cargos</small></span></div>
+                    <p>Freight solutions and shipment support to help your business reach further.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="index.html#services">Air Freight</a></li>
+                        <li><a href="index.html#services">Ocean Freight</a></li>
+                        <li><a href="index.html#services">Ground Transport</a></li>
+                        <li><a href="shipping.html">Get a shipping estimate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="index.html#tracking">Track Package</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="shipping-guide.html">Shipping Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2026 PrimeRoute Cargos. All rights reserved.</p></div>
+        </div>
+    </footer>
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header"><h3>Login to Your Account</h3><span class="close" data-modal="loginModal">&times;</span></div>
+            <div class="modal-body">
+                <form id="loginForm">
+                    <div class="form-group"><label for="loginEmail">Email</label><input type="email" id="loginEmail" name="email" required></div>
+                    <div class="form-group"><label for="loginPassword">Password</label><input type="password" id="loginPassword" name="password" required></div>
+                    <button type="submit" class="btn-primary full-width">Login</button>
+                </form>
+                <div class="modal-footer"><p>Don't have an account? <a href="#" id="showRegisterLink">Register here</a></p></div>
+            </div>
+        </div>
+    </div>
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header"><h3>Create Your Account</h3><span class="close" data-modal="registerModal">&times;</span></div>
+            <div class="modal-body">
+                <form id="registerForm">
+                    <div class="form-row">
+                        <div class="form-group"><label for="registerFirstName">First Name</label><input type="text" id="registerFirstName" name="firstName" required></div>
+                        <div class="form-group"><label for="registerLastName">Last Name</label><input type="text" id="registerLastName" name="lastName" required></div>
+                    </div>
+                    <div class="form-group"><label for="registerEmail">Email</label><input type="email" id="registerEmail" name="email" required></div>
+                    <div class="form-group"><label for="registerPassword">Password</label><input type="password" id="registerPassword" name="password" minlength="6" required></div>
+                    <div class="form-group"><label for="registerPhone">Phone</label><input type="tel" id="registerPhone" name="phone" required></div>
+                    <div class="form-group"><label for="registerStreet">Street Address</label><input type="text" id="registerStreet" name="address.street" required></div>
+                    <div class="form-row">
+                        <div class="form-group"><label for="registerCity">City</label><input type="text" id="registerCity" name="address.city" required></div>
+                        <div class="form-group"><label for="registerState">State</label><input type="text" id="registerState" name="address.state" required></div>
+                        <div class="form-group"><label for="registerZip">ZIP Code</label><input type="text" id="registerZip" name="address.zipCode" maxlength="5" required></div>
+                    </div>
+                    <button type="submit" class="btn-primary full-width">Create Account</button>
+                </form>
+                <div class="modal-footer"><p>Already have an account? <a href="#" id="showLoginLink">Login here</a></p></div>
+            </div>
+        </div>
+    </div>
+    <div id="loadingSpinner" class="loading-spinner hidden-element"><div class="spinner"></div></div>
+    <div id="toastContainer" class="toast-stack" role="region" aria-label="Notifications" aria-live="polite"></div>
+    <script src="js/extension-protection.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

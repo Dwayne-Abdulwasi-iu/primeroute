@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers - PrimeRoute Cargos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .careers-hero {
+            background:
+                linear-gradient(135deg, rgba(15, 15, 35, 0.85) 0%, rgba(23, 98, 196 , 0.72) 100%),
+                url('images/cargo-port.jpg') center/cover no-repeat;
+            padding: 120px 20px 60px;
+            text-align: center;
+            color: white;
+        }
+        .careers-hero-icon {
+            width: 72px;
+            height: 72px;
+            background: rgba(255,255,255,0.15);
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            color: #62c5e8;
+            margin: 0 auto 20px;
+            backdrop-filter: blur(8px);
+        }
+        .careers-hero h1 {
+            font-size: 2.6rem;
+            font-weight: 800;
+            margin-bottom: 14px;
+            letter-spacing: -0.5px;
+            text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+        }
+        .careers-hero p {
+            font-size: 1.05rem;
+            color: rgba(255,255,255,0.85);
+            margin-bottom: 0;
+            line-height: 1.7;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .careers-container {
+            max-width: 900px;
+            margin: 0 auto 70px;
+            padding: 40px 20px 0;
+        }
+
+        /* Why Work Here */
+        .careers-perks {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+            margin-bottom: 50px;
+        }
+        .perk-card {
+            background: white;
+            border-radius: 14px;
+            padding: 26px 22px;
+            text-align: center;
+            box-shadow: 0 2px 16px rgba(23, 98, 196 ,0.09);
+            border-top: 4px solid #1762c4;
+            transition: transform 0.25s, box-shadow 0.25s;
+        }
+        .perk-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 28px rgba(23, 98, 196 ,0.16);
+        }
+        .perk-icon {
+            width: 52px;
+            height: 52px;
+            background: linear-gradient(135deg, #1762c4, #092b5b);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            color: white;
+            margin: 0 auto 14px;
+        }
+        .perk-card h4 {
+            color: #333;
+            margin-bottom: 6px;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+        .perk-card p {
+            color: #666;
+            font-size: 0.9rem;
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        /* Section label */
+        .careers-section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e8ebff;
+        }
+        .careers-section-title span {
+            color: #1762c4;
+        }
+
+        /* Job Cards */
+        .job-card {
+            background: white;
+            border-radius: 14px;
+            padding: 24px 26px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 16px rgba(23, 98, 196 ,0.08);
+            border-left: 4px solid #1762c4;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+            transition: box-shadow 0.25s, transform 0.25s;
+        }
+        .job-card:hover {
+            box-shadow: 0 6px 28px rgba(23, 98, 196 ,0.15);
+            transform: translateY(-2px);
+        }
+        .job-info h3 {
+            color: #1a202c;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+        .job-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .job-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 20px;
+        }
+        .tag-dept  { background: #ede9fe; color: #6d28d9; }
+        .tag-loc   { background: #e0f2fe; color: #0369a1; }
+        .tag-type  { background: #dcfce7; color: #15803d; }
+        .job-desc {
+            color: #555;
+            font-size: 0.92rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+        .job-apply {
+            flex-shrink: 0;
+        }
+        .btn-apply {
+            background: linear-gradient(135deg, #1762c4, #092b5b);
+            color: white;
+            border: none;
+            padding: 10px 22px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            white-space: nowrap;
+            transition: opacity 0.2s, transform 0.2s;
+        }
+        .btn-apply:hover {
+            opacity: 0.88;
+            transform: translateY(-1px);
+        }
+
+        /* No open roles notice */
+        .open-notice {
+            background: #f0f4ff;
+            border: 1.5px dashed #62c5e8;
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            color: #1762c4;
+            font-size: 0.97rem;
+            margin-bottom: 20px;
+        }
+        .open-notice i { font-size: 2rem; margin-bottom: 10px; display: block; }
+
+        /* Apply CTA Banner */
+        .careers-cta {
+            background: linear-gradient(135deg, #1762c4 0%, #092b5b 100%);
+            border-radius: 16px;
+            padding: 40px 32px;
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+        }
+        .careers-cta h3 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        .careers-cta p {
+            font-size: 0.97rem;
+            color: rgba(255,255,255,0.85);
+            margin-bottom: 22px;
+        }
+        .btn-cta-white {
+            background: white;
+            color: #1762c4;
+            border: none;
+            padding: 12px 28px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 0.97rem;
+            text-decoration: none;
+            display: inline-block;
+            transition: opacity 0.2s, transform 0.2s;
+        }
+        .btn-cta-white:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 600px) {
+            .careers-hero h1 { font-size: 1.9rem; }
+            .job-card { flex-direction: column; }
+            .job-apply { width: 100%; }
+            .btn-apply { width: 100%; text-align: center; }
+            .careers-cta { padding: 28px 18px; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-route"></i>
+                <span><strong>PrimeRoute</strong><small>Cargos</small></span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="index.html#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="index.html#tracking" class="nav-link">Track</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="careers-hero">
+        <div class="careers-hero-icon"><i class="fas fa-users"></i></div>
+        <h1>Join the PrimeRoute Cargos Team</h1>
+        <p>Be part of a fast-growing logistics company connecting people and businesses worldwide. We're always looking for passionate, driven individuals.</p>
+    </div>
+
+    <div class="careers-container">
+
+        <!-- Perks -->
+        <h2 class="careers-section-title">Why Work at <span>PrimeRoute?</span></h2>
+        <div class="careers-perks">
+            <div class="perk-card">
+                <div class="perk-icon"><i class="fas fa-heart"></i></div>
+                <h4>Health & Wellness</h4>
+                <p>Comprehensive medical, dental, and vision coverage for you and your family.</p>
+            </div>
+            <div class="perk-card">
+                <div class="perk-icon"><i class="fas fa-chart-line"></i></div>
+                <h4>Career Growth</h4>
+                <p>Clear promotion paths, mentorship programs, and sponsored certifications.</p>
+            </div>
+            <div class="perk-card">
+                <div class="perk-icon"><i class="fas fa-laptop-house"></i></div>
+                <h4>Flexible Work</h4>
+                <p>Hybrid and remote options for eligible roles. We trust our team.</p>
+            </div>
+            <div class="perk-card">
+                <div class="perk-icon"><i class="fas fa-piggy-bank"></i></div>
+                <h4>Competitive Pay</h4>
+                <p>Market-leading salaries, annual bonuses, and equity for senior roles.</p>
+            </div>
+            <div class="perk-card">
+                <div class="perk-icon"><i class="fas fa-plane"></i></div>
+                <h4>Paid Time Off</h4>
+                <p>Generous PTO, paid holidays, and parental leave policies.</p>
+            </div>
+            <div class="perk-card">
+                <div class="perk-icon"><i class="fas fa-graduation-cap"></i></div>
+                <h4>Learning Budget</h4>
+                <p>Annual budget for courses, conferences, and professional development.</p>
+            </div>
+        </div>
+
+        <!-- Open Roles -->
+        <h2 class="careers-section-title">Open <span>Positions</span></h2>
+
+        <div class="job-card">
+            <div class="job-info">
+                <h3>Senior Software Engineer — Backend</h3>
+                <div class="job-meta">
+                    <span class="job-tag tag-dept"><i class="fas fa-code"></i> Engineering</span>
+                    <span class="job-tag tag-loc"><i class="fas fa-map-marker-alt"></i> Remote / New York</span>
+                    <span class="job-tag tag-type"><i class="fas fa-clock"></i> Full-Time</span>
+                </div>
+                <p class="job-desc">Build and scale the APIs powering our global shipment tracking platform. Node.js, MongoDB, and AWS experience preferred.</p>
+            </div>
+            <div class="job-apply">
+                <a href="contact.html" class="btn-apply">Apply Now</a>
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-info">
+                <h3>Logistics Operations Coordinator</h3>
+                <div class="job-meta">
+                    <span class="job-tag tag-dept"><i class="fas fa-boxes"></i> Operations</span>
+                    <span class="job-tag tag-loc"><i class="fas fa-map-marker-alt"></i> Logistics City, LC</span>
+                    <span class="job-tag tag-type"><i class="fas fa-clock"></i> Full-Time</span>
+                </div>
+                <p class="job-desc">Oversee daily package routing, liaise with carrier partners, and optimise last-mile delivery efficiency across our regional hubs.</p>
+            </div>
+            <div class="job-apply">
+                <a href="contact.html" class="btn-apply">Apply Now</a>
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-info">
+                <h3>Customer Support Specialist</h3>
+                <div class="job-meta">
+                    <span class="job-tag tag-dept"><i class="fas fa-headset"></i> Support</span>
+                    <span class="job-tag tag-loc"><i class="fas fa-map-marker-alt"></i> Remote</span>
+                    <span class="job-tag tag-type"><i class="fas fa-clock"></i> Full-Time / Part-Time</span>
+                </div>
+                <p class="job-desc">Be the first point of contact for our customers — resolving tracking issues, claims, and shipping queries with care and speed.</p>
+            </div>
+            <div class="job-apply">
+                <a href="contact.html" class="btn-apply">Apply Now</a>
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-info">
+                <h3>UI/UX Designer</h3>
+                <div class="job-meta">
+                    <span class="job-tag tag-dept"><i class="fas fa-paint-brush"></i> Design</span>
+                    <span class="job-tag tag-loc"><i class="fas fa-map-marker-alt"></i> Hybrid — New York</span>
+                    <span class="job-tag tag-type"><i class="fas fa-clock"></i> Full-Time</span>
+                </div>
+                <p class="job-desc">Design intuitive, beautiful experiences across our web and mobile platforms. Figma proficiency and a strong portfolio required.</p>
+            </div>
+            <div class="job-apply">
+                <a href="contact.html" class="btn-apply">Apply Now</a>
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-info">
+                <h3>Sales Account Executive</h3>
+                <div class="job-meta">
+                    <span class="job-tag tag-dept"><i class="fas fa-handshake"></i> Sales</span>
+                    <span class="job-tag tag-loc"><i class="fas fa-map-marker-alt"></i> Remote / US</span>
+                    <span class="job-tag tag-type"><i class="fas fa-clock"></i> Full-Time</span>
+                </div>
+                <p class="job-desc">Drive business growth by identifying, engaging, and closing enterprise shipping contracts. Proven B2B sales track record preferred.</p>
+            </div>
+            <div class="job-apply">
+                <a href="contact.html" class="btn-apply">Apply Now</a>
+            </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="careers-cta">
+            <h3>Don't see a fit? We'd still love to hear from you.</h3>
+            <p>Send us your CV and a short note about what you're looking for. We keep applications on file and reach out when the right role opens up.</p>
+            <a href="contact.html" class="btn-cta-white"><i class="fas fa-envelope"></i> &nbsp;Send Us Your CV</a>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span><strong>PrimeRoute</strong><small>Cargos</small></span>
+                    </div>
+                    <p>Fast, reliable shipping solutions for your business and personal needs.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="index.html#services">Air Freight</a></li>
+                        <li><a href="index.html#services">Ocean Freight</a></li>
+                        <li><a href="index.html#services">Ground Transport</a></li>
+                        <li><a href="index.html#services">Cargo Handling</a></li>
+                        <li><a href="index.html#tracking">Package Tracking</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="index.html#tracking">Track Package</a></li>
+                        <li><a href="shipping-guide.html">Shipping Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 PrimeRoute Cargos. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
