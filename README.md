@@ -83,22 +83,18 @@ Edit the `.env` file with your configuration:
 ```env
 # Environment Configuration
 NODE_ENV=development
-PORT=3001
+PORT=3000
 
 # Database Configuration
-MONGODB_URI=mongodb://localhost:27017/airpress-shipping
-DB_NAME=airpress-shipping
+MONGODB_URI=mongodb+srv://DB_USER:REPLACE_WITH_URL_ENCODED_PASSWORD@CLUSTER_HOST/primeroute-cargos?retryWrites=true&w=majority
 
 # JWT Configuration
-JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
+JWT_SECRET=REPLACE_WITH_A_RANDOM_SECRET
 JWT_EXPIRES_IN=7d
-
-# API Keys (Replace with actual keys)
-SHIPPING_API_KEY=your-shipping-api-key
-EMAIL_API_KEY=your-email-service-api-key
+ADMIN_KEY=REPLACE_WITH_A_RANDOM_ADMIN_KEY
 
 # CORS Configuration
-CORS_ORIGIN=http://localhost:3001
+CORS_ORIGIN=http://localhost:3000
 
 # Rate Limiting
 RATE_LIMIT_WINDOW_MS=900000
@@ -115,9 +111,9 @@ mongod --dbpath /path/to/your/db
 
 **Or use MongoDB Atlas** (Cloud database):
 1. Create a free account at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
-2. Create a new cluster
-3. Get your connection string
-4. Update `MONGODB_URI` in your `.env` file
+2. Create a cluster and database user
+3. Allow your app host in Atlas Network Access
+4. Put the Atlas connection URI in your ignored `.env` file, including the intended database name
 
 ### 5. Start the Application
 ```bash
@@ -286,10 +282,11 @@ npm run build
 
 ### Environment Setup
 1. Set `NODE_ENV=production` in your production environment
-2. Use a strong, unique `JWT_SECRET`
-3. Configure production MongoDB connection
-4. Set up proper CORS origins
-5. Configure rate limiting for your traffic
+2. Set `MONGODB_URI`, `JWT_SECRET`, and `ADMIN_KEY` in Render's service Environment settings
+3. `render.yaml` supplies `PORT` and `CORS_ORIGIN` for the `primeroute-cargos` Render service
+4. Use new, unique secrets for production; do not upload or commit `.env`
+5. The existing admin account is already in the database; do not set `DEFAULT_ADMIN_EMAIL` or `DEFAULT_ADMIN_PASSWORD`
+6. Configure Atlas Network Access to allow the Render service to connect
 
 ### Recommended Hosting Platforms
 - **Backend**: Heroku, Railway, DigitalOcean, AWS

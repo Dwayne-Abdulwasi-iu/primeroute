@@ -10,6 +10,8 @@ services:
         value: production
       - key: PORT
         value: 10000
+      - key: CORS_ORIGIN
+        value: https://primeroute-cargos.onrender.com
       - key: MONGODB_URI
         sync: false
       - key: JWT_SECRET

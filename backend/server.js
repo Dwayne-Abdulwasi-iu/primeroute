@@ -43,8 +43,7 @@ app.use(cors({
     process.env.CORS_ORIGIN || 'http://localhost:3002',
     'http://localhost:3000',
     'http://127.0.0.1:5500',
-    'http://localhost:5500',
-    'https://airpress-shipping.onrender.com'
+    'http://localhost:5500'
   ],
   credentials: true
 }));
