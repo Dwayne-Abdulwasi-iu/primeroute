@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeRoute Cargos Debug Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .debug-info { background: #f0f0f0; padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .error { background: #ffebee; color: #c62828; }
+        .success { background: #e8f5e8; color: #2e7d32; }
+    </style>
+</head>
+<body>
+    <h1>PrimeRoute Cargos - Debug Page</h1>
+
+    <div class="debug-info">
+        <h3>Current Location Info:</h3>
+        <p><strong>Hostname:</strong> <span id="hostname"></span></p>
+        <p><strong>Port:</strong> <span id="port"></span></p>
+        <p><strong>Protocol:</strong> <span id="protocol"></span></p>
+        <p><strong>Full URL:</strong> <span id="fullUrl"></span></p>
+        <p><strong>API Base URL:</strong> <span id="apiUrl"></span></p>
+    </div>
+
+    <div class="debug-info">
+        <h3>Test Links:</h3>
+        <p><a href="/" onclick="console.log('Home clicked'); return true;">Go to Home</a></p>
+        <p><a href="javascript:void(0)" onclick="console.log('JavaScript void clicked');">JavaScript Void Link</a></p>
+        <p><a href="#test" onclick="console.log('Hash link clicked');">Hash Link Test</a></p>
+    </div>
+
+    <div class="debug-info">
+        <h3>Server Connection Test:</h3>
+        <button onclick="testConnection()">Test API Connection</button>
+        <div id="connectionResult"></div>
+    </div>
+
+    <script>
+        // Display current location info
+        document.getElementById('hostname').textContent = window.location.hostname;
+        document.getElementById('port').textContent = window.location.port || '(default)';
+        document.getElementById('protocol').textContent = window.location.protocol;
+        document.getElementById('fullUrl').textContent = window.location.href;
+
+        // Calculate API URL
+        const API_BASE_URL = window.location.hostname === '127.0.0.1' && window.location.port === '5500'
+            ? 'http://localhost:3002'
+            : '';
+        document.getElementById('apiUrl').textContent = API_BASE_URL || '(relative URLs)';
+
+        // Test API connection
+        function testConnection() {
+            const resultDiv = document.getElementById('connectionResult');
+            resultDiv.innerHTML = '<p>Testing...</p>';
+
+            const testUrl = `${API_BASE_URL}/api/auth/me`;
+
+            fetch(testUrl)
+                .then(response => {
+                    resultDiv.innerHTML = `
+                        <div class="${response.ok ? 'success' : 'error'}">
+                            <p><strong>Response Status:</strong> ${response.status} ${response.statusText}</p>
+                            <p><strong>Test URL:</strong> ${testUrl}</p>
+                            <p><strong>Headers:</strong> ${JSON.stringify(Object.fromEntries(response.headers), null, 2)}</p>
+                        </div>
+                    `;
+                })
+                .catch(error => {
+                    resultDiv.innerHTML = `
+                        <div class="error">
+                            <p><strong>Connection Error:</strong> ${error.message}</p>
+                            <p><strong>Test URL:</strong> ${testUrl}</p>
+                        </div>
+                    `;
+                });
+        }
+
+        // Monitor for problematic URLs
+        console.log('Debug page loaded. Monitoring for URL issues...');
+
+        // Log all clicks
+        document.addEventListener('click', function(e) {
+            if (e.target.tagName === 'A') {
+                console.log('Link clicked:', {
+                    href: e.target.getAttribute('href'),
+                    text: e.target.textContent,
+                    target: e.target
+                });
+            }
+        });
+    </script>
+</body>
+</html>
