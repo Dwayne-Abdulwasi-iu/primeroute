@@ -32,15 +32,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.8rem;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 2.1rem;
 }
 
 p {
@@ -56,7 +56,7 @@ p {
     border: none;
     border-radius: 8px;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.4rem;
     cursor: pointer;
     transition: all 0.3s ease;
     text-decoration: none;
@@ -89,7 +89,7 @@ p {
     background: #f8f9ff;
     color: #1762c4;
     padding: 8px 16px;
-    font-size: 0.9rem;
+    font-size: 1.26rem;
 }
 
 .btn-login:hover {
@@ -133,14 +133,14 @@ p {
 .nav-logo {
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 2.1rem;
     font-weight: 700;
     color: #1762c4;
 }
 
 .nav-logo i {
     margin-right: 8px;
-    font-size: 1.8rem;
+    font-size: 2.52rem;
 }
 
 .nav-menu {
@@ -196,19 +196,19 @@ p {
 }
 
 .hero-title {
-    font-size: 3.5rem;
+    font-size: 4.9rem;
     margin-bottom: 20px;
     line-height: 1.1;
 }
 
 .hero-subtitle {
-    font-size: 1.2rem;
+    font-size: 1.68rem;
     margin-bottom: 20px;
     opacity: 0.9;
 }
 
 .auth-notice {
-    font-size: 0.95rem;
+    font-size: 1.33rem;
     margin-bottom: 25px;
     padding: 12px 16px;
     background: rgba(255, 255, 255, 0.1);
@@ -226,7 +226,7 @@ p {
 }
 
 .service-notice {
-    font-size: 0.9rem;
+    font-size: 1.26rem;
     color: #666;
     margin-bottom: 15px;
     text-align: center;
@@ -257,7 +257,7 @@ p {
 }
 
 .hero-icon {
-    font-size: 12rem;
+    font-size: 16.8rem;
     opacity: 0.3;
     text-align: center;
     display: block;
@@ -299,7 +299,7 @@ p {
     flex: 1;
     padding: 14px 20px;
     border: none;
-    font-size: 1rem;
+    font-size: 1.4rem;
     outline: none;
 }
 
@@ -315,7 +315,7 @@ p {
 }
 
 .section-header p {
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: #666;
     max-width: 520px;
     margin: 0 auto;
@@ -362,7 +362,7 @@ p {
     color: white;
     padding: 4px 12px;
     border-radius: 20px;
-    font-size: 0.72rem;
+    font-size: 1.008rem;
     font-weight: 600;
 }
 
@@ -376,19 +376,19 @@ p {
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 1.6rem;
+    font-size: 2.24rem;
 }
 
 .service-card h3 {
     margin-bottom: 10px;
     color: #333;
-    font-size: 1.05rem;
+    font-size: 1.47rem;
 }
 
 .service-card p {
     color: #666;
     margin-bottom: 18px;
-    font-size: 0.96rem;
+    font-size: 1.344rem;
 }
 
 .service-features {
@@ -402,17 +402,17 @@ p {
     align-items: center;
     margin-bottom: 8px;
     color: #666;
-    font-size: 0.94rem;
+    font-size: 1.316rem;
 }
 
 .service-features i {
     color: #22c55e;
     margin-right: 10px;
-    font-size: 0.82rem;
+    font-size: 1.148rem;
 }
 
 .service-price {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     font-weight: 700;
     color: #1762c4;
     margin-top: 20px;
@@ -452,7 +452,7 @@ p {
     flex: 1;
     padding: 16px 20px;
     border: none;
-    font-size: 1rem;
+    font-size: 1.4rem;
     outline: none;
 }
 
@@ -519,7 +519,7 @@ p {
 .history-header h4 {
     margin: 0;
     color: #333;
-    font-size: 1.1rem;
+    font-size: 1.54rem;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -534,7 +534,7 @@ p {
     background: none;
     border: none;
     color: #1762c4;
-    font-size: 1.2rem;
+    font-size: 1.68rem;
     cursor: pointer;
     padding: 8px;
     border-radius: 50%;
@@ -644,7 +644,7 @@ p {
 }
 
 .history-time {
-    font-size: 0.9rem;
+    font-size: 1.26rem;
     color: #999;
 }
 
@@ -653,7 +653,7 @@ p {
     display: inline-block;
     padding: 4px 8px;
     border-radius: 12px;
-    font-size: 0.8em;
+    font-size: 1.12em;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -677,7 +677,7 @@ p {
     color: white;
     padding: 2px 6px;
     border-radius: 8px;
-    font-size: 0.7em;
+    font-size: 0.98em;
     margin-left: 8px;
 }
 
@@ -703,7 +703,7 @@ p {
 .current-status-info h4 {
     color: #1762c4;
     margin: 0 0 15px 0;
-    font-size: 1.1rem;
+    font-size: 1.54rem;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -735,7 +735,7 @@ p {
 
 .status-item i {
     color: #1762c4;
-    font-size: 1.2rem;
+    font-size: 1.68rem;
     margin-top: 2px;
     width: 20px;
     text-align: center;
@@ -748,7 +748,7 @@ p {
 .status-item strong {
     display: block;
     color: #333;
-    font-size: 0.9rem;
+    font-size: 1.26rem;
     margin-bottom: 4px;
     font-weight: 600;
 }
@@ -756,7 +756,7 @@ p {
 .status-item p {
     margin: 0;
     color: #666;
-    font-size: 0.95rem;
+    font-size: 1.33rem;
     line-height: 1.4;
 }
 
@@ -802,7 +802,7 @@ p {
 
 .history-item p {
     margin: 3px 0;
-    font-size: 0.9em;
+    font-size: 1.26em;
 }
 
 .history-item p i {
@@ -880,7 +880,7 @@ p {
     margin-top: 25px;
     margin-bottom: 12px;
     color: #333;
-    font-size: 1.1rem;
+    font-size: 1.54rem;
     font-weight: 600;
     border-bottom: 2px solid #1762c4;
     padding-bottom: 6px;
@@ -905,7 +905,7 @@ p {
     align-items: center;
     gap: 10px;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 2.1rem;
 }
 
 .shipment-section {
@@ -920,7 +920,7 @@ p {
 .shipment-section h3 {
     color: #1762c4;
     margin: 0 0 20px 0;
-    font-size: 1.2rem;
+    font-size: 1.68rem;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -940,7 +940,7 @@ p {
 .dimensions-section h4 {
     color: #333;
     margin: 0 0 15px 0;
-    font-size: 1rem;
+    font-size: 1.4rem;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -958,7 +958,7 @@ p {
 .shipment-summary h4 {
     color: #333;
     margin: 0 0 15px 0;
-    font-size: 1rem;
+    font-size: 1.4rem;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -992,7 +992,7 @@ p {
 
 .cost-highlight {
     color: #28a745;
-    font-size: 1.1rem;
+    font-size: 1.54rem;
 }
 
 .form-actions {
@@ -1038,7 +1038,7 @@ p {
     align-items: center;
     gap: 8px;
     padding: 14px 28px;
-    font-size: 1.05rem;
+    font-size: 1.47rem;
     font-weight: 600;
 }
 
@@ -1070,7 +1070,7 @@ p {
 /* Shipment form specific styling */
 #shipmentForm .form-group p {
     margin: 5px 0;
-    font-size: 0.95rem;
+    font-size: 1.33rem;
 }
 
 #shipmentForm .btn-primary {
@@ -1089,7 +1089,7 @@ p {
     margin-bottom: 3px;
     font-weight: 500;
     color: #333;
-    font-size: 0.95rem;
+    font-size: 1.33rem;
 }
 
 .form-group input,
@@ -1098,7 +1098,7 @@ p {
     padding: 10px 12px;
     border: 1.5px solid #e1e5e9;
     border-radius: 7px;
-    font-size: 0.95rem;
+    font-size: 1.33rem;
     transition: border-color 0.3s ease;
     outline: none;
 }
@@ -1125,7 +1125,7 @@ p {
 }
 
 .rate-price {
-    font-size: 1.6rem;
+    font-size: 2.24rem;
     font-weight: 700;
     color: #1762c4;
 }
@@ -1135,7 +1135,7 @@ p {
     color: white;
     padding: 5px 10px;
     border-radius: 15px;
-    font-size: 0.9rem;
+    font-size: 1.26rem;
 }
 
 .rate-details {
@@ -1200,13 +1200,13 @@ p {
 .about-text h2 {
     margin-bottom: 20px;
     color: #ffffff;
-    font-size: 2.2rem;
+    font-size: 3.08rem;
     text-shadow: 0 2px 12px rgba(0,0,0,0.4);
     letter-spacing: -0.5px;
 }
 
 .about-text p {
-    font-size: 1.05rem;
+    font-size: 1.47rem;
     color: rgba(255,255,255,0.88);
     margin-bottom: 40px;
     line-height: 1.8;
@@ -1236,7 +1236,7 @@ p {
 }
 
 .stat-number {
-    font-size: 2.2rem;
+    font-size: 3.08rem;
     font-weight: 800;
     color: #62c5e8;
     margin-bottom: 4px;
@@ -1246,13 +1246,13 @@ p {
 .stat-label {
     color: rgba(255,255,255,0.82);
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 1.26rem;
 }
 
 .about-features h3 {
     margin-bottom: 24px;
     color: #ffffff;
-    font-size: 1.4rem;
+    font-size: 1.96rem;
     text-shadow: 0 1px 8px rgba(0,0,0,0.3);
 }
 
@@ -1288,7 +1288,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.1rem;
+    font-size: 1.54rem;
     flex-shrink: 0;
     box-shadow: 0 4px 12px rgba(23, 98, 196 ,0.4);
 }
@@ -1302,7 +1302,7 @@ p {
 .feature-item p {
     color: rgba(255,255,255,0.78);
     margin: 0;
-    font-size: 0.92rem;
+    font-size: 1.288rem;
 }
 
 /* Contact Section */
@@ -1312,9 +1312,9 @@ p {
 }
 
 .contact-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .contact-info {
@@ -1342,7 +1342,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 1.68rem;
     flex-shrink: 0;
 }
 
@@ -1361,6 +1361,8 @@ p {
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 760px;
 }
 
 /* Footer */
@@ -1380,7 +1382,7 @@ p {
 .footer-logo {
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 2.1rem;
     font-weight: 700;
     color: #1762c4;
     margin-bottom: 15px;
@@ -1388,7 +1390,7 @@ p {
 
 .footer-logo i {
     margin-right: 8px;
-    font-size: 1.8rem;
+    font-size: 2.52rem;
 }
 
 .footer-section p {
@@ -1423,7 +1425,7 @@ p {
 .footer-section h4 {
     color: white;
     margin-bottom: 20px;
-    font-size: 1.1rem;
+    font-size: 1.54rem;
 }
 
 .footer-section ul {
@@ -1511,7 +1513,7 @@ p {
 
 .close {
     color: #999;
-    font-size: 2rem;
+    font-size: 2.8rem;
     font-weight: bold;
     cursor: pointer;
     line-height: 1;
@@ -1553,7 +1555,7 @@ p {
     align-items: center;
     gap: 10px;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 2.1rem;
 }
 
 .profile-section {
@@ -1567,7 +1569,7 @@ p {
 .profile-section h3 {
     color: #1762c4;
     margin: 0 0 15px 0;
-    font-size: 1.1rem;
+    font-size: 1.54rem;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -1616,7 +1618,7 @@ p {
 
 .field-note {
     color: #666;
-    font-size: 0.85rem;
+    font-size: 1.19rem;
     margin-top: 5px;
     font-style: italic;
 }
@@ -1637,7 +1639,7 @@ p {
     padding: 12px 24px;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 500;
     transition: all 0.3s ease;
 }
@@ -1723,7 +1725,7 @@ p {
     animation: toastSlideIn 0.3s ease;
     min-width: 250px;
     max-width: 320px;
-    font-size: 14px;
+    font-size: 19.6px;
     line-height: 1.4;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -1795,7 +1797,7 @@ p {
 }
 
 .shipment-icon {
-    font-size: 24px;
+    font-size: 33.6px;
     margin-top: 4px;
     flex-shrink: 0;
 }
@@ -1806,13 +1808,13 @@ p {
 
 .shipment-details h4 {
     margin: 0 0 8px 0;
-    font-size: 16px;
+    font-size: 22.4px;
     font-weight: 600;
 }
 
 .shipment-details p {
     margin: 4px 0;
-    font-size: 14px;
+    font-size: 19.6px;
     line-height: 1.4;
 }
 
@@ -1823,7 +1825,7 @@ p {
     padding: 8px 12px;
     font-family: 'Courier New', monospace;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 21px;
     color: #047857;
     margin: 6px 0;
     letter-spacing: 1px;
@@ -1833,7 +1835,7 @@ p {
 .shipment-note {
     font-style: italic;
     opacity: 0.8;
-    font-size: 13px !important;
+    font-size: 18.2px !important;
     margin-top: 8px !important;
 }
 
@@ -1912,7 +1914,7 @@ p {
     }
 
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
 
     .hero-actions {
@@ -1991,20 +1993,20 @@ p {
 }
 
 @media (max-width: 480px) {
-    body { font-size: 14px; }
+    body { font-size: 19.6px; }
 
     .container { padding: 0 12px; }
 
-    h1 { font-size: 1.7rem; }
-    h2 { font-size: 1.38rem; }
-    h3 { font-size: 1.1rem; }
+    h1 { font-size: 2.38rem; }
+    h2 { font-size: 1.932rem; }
+    h3 { font-size: 1.54rem; }
     p { margin-bottom: 0.7rem; }
 
     .btn-primary,
     .btn-secondary,
     .btn-login,
     .btn-track {
-        font-size: 0.9rem;
+        font-size: 1.26rem;
         padding: 10px 16px;
         border-radius: 7px;
     }
@@ -2016,9 +2018,9 @@ p {
 
     .hero-container { gap: 24px; }
 
-    .hero-title { font-size: 1.7rem; }
+    .hero-title { font-size: 2.38rem; }
 
-    .hero-subtitle { font-size: 0.96rem; }
+    .hero-subtitle { font-size: 1.344rem; }
 
     .hero-actions {
         flex-direction: column;
@@ -2035,9 +2037,9 @@ p {
 
     .section-header { margin-bottom: 24px; }
 
-    .section-header h2 { font-size: 1.35rem; }
+    .section-header h2 { font-size: 1.89rem; }
 
-    .section-header p { font-size: 0.88rem; }
+    .section-header p { font-size: 1.232rem; }
 
     .services { padding: 42px 0 48px; }
 
@@ -2048,24 +2050,24 @@ p {
     .service-icon {
         width: 56px;
         height: 56px;
-        font-size: 1.4rem;
+        font-size: 1.96rem;
         margin-bottom: 12px;
     }
 
-    .service-card h3 { font-size: 0.96rem; }
+    .service-card h3 { font-size: 1.344rem; }
 
-    .service-card p { font-size: 0.86rem; }
+    .service-card p { font-size: 1.204rem; }
 
-    .service-features li { font-size: 0.86rem; }
+    .service-features li { font-size: 1.204rem; }
 
-    .service-price { font-size: 1.02rem; }
+    .service-price { font-size: 1.428rem; }
 
     .tracking-section,
     .shipping-section,
     .about-section,
     .contact-section { padding: 54px 0; }
 
-    .tracking-form input { padding: 12px 14px; font-size: 0.95rem; }
+    .tracking-form input { padding: 12px 14px; font-size: 1.33rem; }
 
     .rate-calculator,
     .shipping-info,
@@ -2076,25 +2078,25 @@ p {
 
     .form-row { grid-template-columns: 1fr; gap: 3px; }
 
-    .form-group label { margin-bottom: 2px; font-size: 0.92rem; }
+    .form-group label { margin-bottom: 2px; font-size: 1.288rem; }
 
     .form-group input,
     .form-group select,
-    .form-group textarea { padding: 8px 10px; font-size: 0.93rem; margin-bottom: 2px; }
+    .form-group textarea { padding: 8px 10px; font-size: 1.302rem; margin-bottom: 2px; }
 
-    .rate-price { font-size: 1.6rem; }
+    .rate-price { font-size: 2.24rem; }
 
     .about-content,
     .contact-container { gap: 28px; grid-template-columns: 1fr; }
 
     .stats-grid { gap: 16px; }
 
-    .stat-number { font-size: 2rem; }
+    .stat-number { font-size: 2.8rem; }
 
     .feature-item { gap: 14px; }
 
     .feature-item i,
-    .contact-item i { width: 42px; height: 42px; font-size: 1rem; }
+    .contact-item i { width: 42px; height: 42px; font-size: 1.4rem; }
 
     .footer { padding: 40px 0 18px; }
 
@@ -2165,7 +2167,7 @@ p {
     color: #dc3545;
     text-align: center;
     margin-bottom: 10px;
-    font-size: 1.8rem;
+    font-size: 2.52rem;
 }
 
 #adminRegisterModal h2 i {
@@ -2176,7 +2178,7 @@ p {
 #adminRegisterModal p {
     text-align: center;
     margin-bottom: 25px;
-    font-size: 0.95rem;
+    font-size: 1.33rem;
     color: #666;
 }
 
@@ -2196,7 +2198,7 @@ p {
     margin-bottom: 6px;
     font-weight: 500;
     color: #333;
-    font-size: 0.9rem;
+    font-size: 1.26rem;
 }
 
 .form-group input {
@@ -2204,7 +2206,7 @@ p {
     padding: 12px;
     border: 2px solid #e1e5e9;
     border-radius: 8px;
-    font-size: 14px;
+    font-size: 19.6px;
     transition: all 0.3s ease;
     box-sizing: border-box;
     background: #f8f9fa;
@@ -2225,7 +2227,7 @@ p {
 .form-group small {
     display: block;
     margin-top: 5px;
-    font-size: 0.8rem;
+    font-size: 1.12rem;
     color: #6c757d;
     font-style: italic;
 }
@@ -2237,7 +2239,7 @@ p {
     padding: 12px 24px;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 0.95rem;
+    font-size: 1.33rem;
     font-weight: 600;
     transition: all 0.3s ease;
     text-transform: uppercase;
@@ -2269,7 +2271,7 @@ p {
     }
 
     #adminRegisterModal h2 {
-        font-size: 1.5rem;
+        font-size: 2.1rem;
     }
 }/* My Shipments Modal Styling */
 .my-shipments-modal {
@@ -2285,7 +2287,7 @@ p {
     align-items: center;
     gap: 10px;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 2.1rem;
 }
 
 .empty-shipments {
@@ -2295,20 +2297,20 @@ p {
 }
 
 .empty-icon {
-    font-size: 4rem;
+    font-size: 5.6rem;
     color: #1762c4;
         margin-bottom: 26px;
 }
 
 .empty-shipments h3 {
-        font-size: 1.4rem;
+        font-size: 1.96rem;
     margin: 20px 0 10px 0;
-    font-size: 1.5rem;
+    font-size: 2.1rem;
 }
-        font-size: 0.9rem;
+        font-size: 1.26rem;
 .empty-shipments p {
     margin-bottom: 30px;
-    font-size: 1.1rem;
+    font-size: 1.54rem;
         padding: 44px 0 50px;
 }
 
@@ -2323,27 +2325,27 @@ p {
 .summary-stats {
         width: 52px;
         height: 52px;
-        font-size: 1.3rem;
+        font-size: 1.82rem;
         margin-bottom: 10px;
 
 .stat-item {
     display: flex;
-        font-size: 0.98rem;
+        font-size: 1.372rem;
     gap: 15px;
     padding: 15px;
     background: rgba(255, 255, 255, 0.1);
-        font-size: 0.88rem;
+        font-size: 1.232rem;
     backdrop-filter: blur(10px);
 }
 
-        font-size: 0.88rem;
-    font-size: 2rem;
+        font-size: 1.232rem;
+    font-size: 2.8rem;
     opacity: 0.9;
 }
-        font-size: 1.05rem;
+        font-size: 1.47rem;
 .stat-number {
     display: block;
-    font-size: 2rem;
+    font-size: 2.8rem;
     font-weight: bold;
     line-height: 1;
     color: #000000;
@@ -2351,7 +2353,7 @@ p {
 
 .stat-label {
     display: block;
-    font-size: 0.9rem;
+    font-size: 1.26rem;
     opacity: 0.9;
     user-select: none;
 }
@@ -2389,7 +2391,7 @@ p {
 .tracking-info h3 {
     margin: 0 0 8px 0;
     color: #000000;
-    font-size: 1.2rem;
+    font-size: 1.68rem;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -2404,7 +2406,7 @@ p {
     gap: 6px;
     padding: 6px 12px;
     border-radius: 20px;
-    font-size: 0.85rem;
+    font-size: 1.19rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -2423,7 +2425,7 @@ p {
     color: white;
     padding: 2px 6px;
     border-radius: 10px;
-    font-size: 0.7rem;
+    font-size: 0.98rem;
     margin-left: 8px;
 }
 
@@ -2434,7 +2436,7 @@ p {
     padding: 10px 16px;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 0.9rem;
+    font-size: 1.26rem;
     font-weight: 500;
     transition: all 0.3s ease;
     display: flex;
@@ -2478,7 +2480,7 @@ p {
 
 .detail-item i {
     color: #1762c4;
-    font-size: 1.2rem;
+    font-size: 1.68rem;
     width: 24px;
     text-align: center;
     margin-top: 2px;
@@ -2490,7 +2492,7 @@ p {
 
 .detail-label {
     display: block;
-    font-size: 0.9rem;
+    font-size: 1.26rem;
     color: #6b7280;
     font-weight: 500;
     margin-bottom: 4px;
@@ -2503,7 +2505,7 @@ p {
 
 .detail-value {
     display: block;
-    font-size: 0.95rem;
+    font-size: 1.33rem;
     color: #333;
     font-weight: 600;
 }
@@ -2524,19 +2526,19 @@ p {
 }
 
 .cost-label, .date-label {
-    font-size: 0.9rem;
+    font-size: 1.26rem;
     color: #666;
     font-weight: 500;
 }
 
 .cost-value {
-    font-size: 1.1rem;
+    font-size: 1.54rem;
     color: #28a745;
     font-weight: bold;
 }
 
 .date-value {
-    font-size: 0.9rem;
+    font-size: 1.26rem;
     color: #333;
     font-weight: 600;
 }
@@ -2592,14 +2594,14 @@ p {
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.68rem;
     flex-shrink: 0;
 }
 
 .update-title h4 {
     margin: 0 0 5px 0;
     color: #333;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -2609,7 +2611,7 @@ p {
 .update-timestamp {
     margin: 0;
     color: #666;
-    font-size: 0.85rem;
+    font-size: 1.19rem;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -2623,7 +2625,7 @@ p {
 
 .expand-icon {
     color: #1762c4;
-    font-size: 1.1rem;
+    font-size: 1.54rem;
     transition: transform 0.3s ease;
 }
 
@@ -2692,7 +2694,7 @@ p {
 
 .detail-item i {
     color: #1762c4;
-    font-size: 1.1rem;
+    font-size: 1.54rem;
     margin-top: 2px;
     width: 20px;
     text-align: center;
@@ -2709,7 +2711,7 @@ p {
 
 .detail-label {
     display: block;
-    font-size: 0.8rem;
+    font-size: 1.12rem;
     color: #666;
     font-weight: 500;
     margin-bottom: 3px;
@@ -2719,7 +2721,7 @@ p {
 
 .detail-value {
     display: block;
-    font-size: 0.95rem;
+    font-size: 1.33rem;
     color: #333;
     font-weight: 600;
     line-height: 1.4;
@@ -2736,7 +2738,7 @@ p {
     color: white;
     padding: 2px 8px;
     border-radius: 12px;
-    font-size: 0.7rem;
+    font-size: 0.98rem;
     font-weight: 600;
     text-transform: uppercase;
     margin-left: 8px;
@@ -2771,7 +2773,7 @@ p {
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 1.5rem;
+    font-size: 2.1rem;
     margin-bottom: 15px;
 }
 
@@ -2900,13 +2902,13 @@ p {
 .message-title h4 {
     margin: 0;
     color: #333;
-    font-size: 1.1rem;
+    font-size: 1.54rem;
 }
 
 .priority-badge, .status-badge {
     padding: 2px 8px;
     border-radius: 12px;
-    font-size: 0.7rem;
+    font-size: 0.98rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -2954,7 +2956,7 @@ p {
 .message-meta {
     display: flex;
     gap: 15px;
-    font-size: 0.85rem;
+    font-size: 1.19rem;
     color: #666;
 }
 
@@ -2969,7 +2971,7 @@ p {
     justify-content: space-between;
     align-items: center;
     margin-top: 15px;
-    font-size: 0.8rem;
+    font-size: 1.12rem;
 }
 
 .message-actions {
@@ -2988,7 +2990,7 @@ p {
     color: #1762c4;
     padding: 2px 6px;
     border-radius: 10px;
-    font-size: 0.7rem;
+    font-size: 0.98rem;
 }
 
 .support-pagination {
@@ -3073,12 +3075,12 @@ p {
 .info-item label {
     font-weight: 600;
     color: #666;
-    font-size: 0.85rem;
+    font-size: 1.19rem;
 }
 
 .info-item span {
     color: #333;
-    font-size: 0.95rem;
+    font-size: 1.33rem;
 }
 
 .status-controls {
@@ -3095,7 +3097,7 @@ p {
 .control-group label {
     font-weight: 600;
     color: #666;
-    font-size: 0.85rem;
+    font-size: 1.19rem;
 }
 
 .control-group select {
@@ -3122,7 +3124,7 @@ p {
 
 .message-timestamp {
     margin-top: 10px;
-    font-size: 0.8rem;
+    font-size: 1.12rem;
     color: #666;
     display: flex;
     align-items: center;
@@ -3178,7 +3180,7 @@ p {
 .internal-badge, .external-badge {
     padding: 2px 6px;
     border-radius: 10px;
-    font-size: 0.7rem;
+    font-size: 0.98rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -3194,7 +3196,7 @@ p {
 }
 
 .response-time {
-    font-size: 0.8rem;
+    font-size: 1.12rem;
     color: #666;
 }
 
@@ -3237,7 +3239,7 @@ p {
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 0.9rem;
+    font-size: 1.26rem;
     color: #666;
     cursor: pointer;
 }
@@ -3286,15 +3288,15 @@ p {
     .update-icon {
         width: 35px;
         height: 35px;
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 
     .update-title h4 {
-        font-size: 0.9rem;
+        font-size: 1.26rem;
     }
 
     .update-timestamp {
-        font-size: 0.8rem;
+        font-size: 1.12rem;
     }
 
     .detail-row {
@@ -3378,7 +3380,7 @@ p {
 .message-info h3 {
     margin: 0 0 10px 0;
     color: #333;
-    font-size: 1.4em;
+    font-size: 1.96em;
 }
 
 .message-info p {
@@ -3405,7 +3407,7 @@ p {
     padding: 6px 12px;
     border-radius: 20px;
     color: white;
-    font-size: 0.85em;
+    font-size: 1.19em;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -3418,7 +3420,7 @@ p {
 .message-content h4 {
     margin: 0 0 15px 0;
     color: #333;
-    font-size: 1.2em;
+    font-size: 1.68em;
 }
 
 .message-text {
@@ -3481,7 +3483,7 @@ p {
 
 .response-date {
     color: #888;
-    font-size: 0.9em;
+    font-size: 1.26em;
 }
 
 .response-text {
@@ -3503,7 +3505,7 @@ p {
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 0.95em;
+    font-size: 1.33em;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -3645,7 +3647,7 @@ p {
     padding: 6px 12px;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 16.8px;
     transition: all 0.3s;
     display: inline-flex;
     align-items: center;
@@ -3658,7 +3660,7 @@ p {
 }
 
 .verify-single-btn i {
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .user-filters {
@@ -3684,14 +3686,14 @@ p {
     padding: 8px 12px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 19.6px;
 }
 
 .search-group input {
     padding: 8px 12px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 19.6px;
     min-width: 200px;
 }
 
@@ -3702,7 +3704,7 @@ p {
     padding: 8px 10px;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 16.8px;
     transition: background-color 0.3s;
 }
 
@@ -3717,7 +3719,7 @@ p {
     padding: 8px 10px;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 16.8px;
     transition: background-color 0.3s;
 }
 
@@ -3729,7 +3731,7 @@ p {
     text-align: center;
     padding: 40px;
     color: #666;
-    font-size: 16px;
+    font-size: 22.4px;
 }
 
 .loading-state i {
@@ -3761,7 +3763,7 @@ p {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 19.6px;
     font-family: inherit;
 }
 
@@ -3793,7 +3795,7 @@ p {
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 19.6px;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -3811,7 +3813,7 @@ p {
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 19.6px;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -3832,13 +3834,13 @@ p {
 .user-info h4 {
     margin: 0 0 8px 0;
     color: #333;
-    font-size: 1.1em;
+    font-size: 1.54em;
 }
 
 .user-info p {
     margin: 4px 0;
     color: #666;
-    font-size: 0.9em;
+    font-size: 1.26em;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -3857,7 +3859,7 @@ p {
     padding: 4px 12px;
     border-radius: 12px;
     color: white;
-    font-size: 0.8em;
+    font-size: 1.12em;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -3871,7 +3873,7 @@ p {
 .user-meta p {
     margin: 5px 0;
     color: #555;
-    font-size: 0.9em;
+    font-size: 1.26em;
 }
 
 @media (max-width: 768px) {
@@ -3918,12 +3920,12 @@ p {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 19.6px;
 }
 
 .response-date {
     color: #6c757d;
-    font-size: 12px;
+    font-size: 16.8px;
 }
 
 .internal-badge {
@@ -3931,7 +3933,7 @@ p {
     color: #212529;
     padding: 2px 8px;
     border-radius: 12px;
-    font-size: 11px;
+    font-size: 15.4px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -3961,13 +3963,13 @@ p {
 
 .admin-dashboard-modal .modal-header h2 {
     margin: 0;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 600;
 }
 
 .admin-dashboard-modal .modal-header .close {
     color: white;
-    font-size: 22px;
+    font-size: 30.8px;
     font-weight: bold;
     cursor: pointer;
     transition: opacity 0.3s;
@@ -4032,12 +4034,12 @@ p {
     align-items: center;
     justify-content: center;
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 28px;
     color: white;
 }
 
 .admin-stats .stat-content h3 {
-    font-size: 24px;
+    font-size: 33.6px;
     font-weight: 700;
     margin: 0 0 5px 0;
     color: #1a202c;
@@ -4045,7 +4047,7 @@ p {
 }
 
 .admin-stats .stat-content p {
-    font-size: 12px;
+    font-size: 16.8px;
     color: #6c757d;
     margin: 0;
     font-weight: 500;
@@ -4124,12 +4126,12 @@ p {
 }
 
 .admin-btn i {
-    font-size: 22px;
+    font-size: 30.8px;
     margin-bottom: 5px;
 }
 
 .admin-btn span {
-    font-size: 12px;
+    font-size: 16.8px;
     text-align: center;
 }
 
@@ -4181,11 +4183,11 @@ p {
     .admin-stats .stat-icon {
         width: 40px;
         height: 40px;
-        font-size: 18px;
+        font-size: 25.2px;
     }
 
     .admin-stats .stat-content h3 {
-        font-size: 20px;
+        font-size: 28px;
     }
 }
 
@@ -4208,7 +4210,7 @@ p {
     padding: 4px 6px;
     border-radius: 3px;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 14px;
     transition: all 0.3s;
     display: flex;
     align-items: center;
@@ -4221,7 +4223,7 @@ p {
 }
 
 .delete-note-btn i {
-    font-size: 9px;
+    font-size: 12.6px;
 }
 
 /* Additional CSP-compliant styles */
@@ -4286,7 +4288,7 @@ p {
     color: white;
     padding: 2px 8px;
     border-radius: 12px;
-    font-size: 0.75rem;
+    font-size: 1.05rem;
     font-weight: 600;
     margin-left: 8px;
     animation: pulse 2s infinite;
@@ -4321,7 +4323,7 @@ p {
 .toast-close-btn {
     background: none;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.68rem;
     cursor: pointer;
     margin-left: 10px;
     color: inherit;
@@ -4334,7 +4336,7 @@ p {
 .status-badge-custom {
     padding: 2px 8px;
     border-radius: 12px;
-    font-size: 0.8em;
+    font-size: 1.12em;
     font-weight: bold;
     color: white;
 }
@@ -4342,7 +4344,7 @@ p {
 .priority-badge-custom {
     padding: 2px 8px;
     border-radius: 12px;
-    font-size: 0.8em;
+    font-size: 1.12em;
     font-weight: bold;
     color: white;
 }
@@ -4371,7 +4373,7 @@ p {
 
 .shipments-header h2 {
     color: #2c3e50;
-    font-size: 2rem;
+    font-size: 2.8rem;
     font-weight: 600;
     margin: 0;
     display: flex;
@@ -4381,7 +4383,7 @@ p {
 
 .shipments-header h2 i {
     color: #1762c4;
-    font-size: 1.8rem;
+    font-size: 2.52rem;
 }
 
 .back-to-dashboard {
@@ -4423,7 +4425,7 @@ p {
     width: 320px;
     border: 2px solid #dee2e6;
     border-radius: 8px;
-    font-size: 14px;
+    font-size: 19.6px;
     background: white;
     transition: all 0.3s ease;
 }
@@ -4440,7 +4442,7 @@ p {
     border: 2px solid #dee2e6;
     border-radius: 8px;
     background: white;
-    font-size: 14px;
+    font-size: 19.6px;
     min-width: 150px;
     transition: all 0.3s ease;
 }
@@ -4514,7 +4516,7 @@ p {
 
 .tracking-number {
     color: #1762c4;
-    font-size: 1.3rem;
+    font-size: 1.82rem;
     font-weight: 600;
     margin: 0 0 15px 0;
     word-break: break-all;
@@ -4523,7 +4525,7 @@ p {
 .shipment-detail {
     margin: 8px 0;
     color: #495057;
-    font-size: 14px;
+    font-size: 19.6px;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -4547,11 +4549,11 @@ p {
     margin: 5px 0;
     font-weight: 600;
     color: #28a745;
-    font-size: 1.1rem;
+    font-size: 1.54rem;
 }
 
 .shipment-date {
-    font-size: 13px;
+    font-size: 18.2px;
     color: #6c757d;
     margin: 5px 0;
 }
@@ -4559,7 +4561,7 @@ p {
 .action-button {
     padding: 10px 16px;
     border-radius: 6px;
-    font-size: 13px;
+    font-size: 18.2px;
     font-weight: 500;
     transition: all 0.3s ease;
     text-decoration: none;
@@ -4599,7 +4601,7 @@ p {
 }
 
 .shipments-empty i {
-    font-size: 4rem;
+    font-size: 5.6rem;
     color: #dee2e6;
     margin-bottom: 20px;
 }
@@ -4616,7 +4618,7 @@ p {
 }
 
 .shipments-loading i {
-    font-size: 2rem;
+    font-size: 2.8rem;
     animation: spin 1s linear infinite;
 }
 
@@ -4660,14 +4662,14 @@ p {
 
 .users-results-info {
     margin: 10px 0;
-    font-size: 14px;
+    font-size: 19.6px;
     color: #666;
 }
 
 .role-badge-custom {
     padding: 2px 8px;
     border-radius: 12px;
-    font-size: 0.8em;
+    font-size: 1.12em;
     font-weight: bold;
     color: white;
 }
@@ -4697,14 +4699,14 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.8rem;
+    font-size: 2.52rem;
     color: #62c5e8;
     margin: 0 auto 20px;
     backdrop-filter: blur(8px);
 }
 
 .legal-hero h1 {
-    font-size: 2.6rem;
+    font-size: 3.64rem;
     font-weight: 800;
     margin-bottom: 14px;
     letter-spacing: -0.5px;
@@ -4712,7 +4714,7 @@ p {
 }
 
 .legal-hero p {
-    font-size: 1.05rem;
+    font-size: 1.47rem;
     color: rgba(255,255,255,0.82);
     margin-bottom: 18px;
     line-height: 1.7;
@@ -4726,7 +4728,7 @@ p {
     border: 1px solid rgba(255,255,255,0.2);
     padding: 6px 16px;
     border-radius: 20px;
-    font-size: 0.88rem;
+    font-size: 1.232rem;
     color: rgba(255,255,255,0.78);
     font-style: normal;
     backdrop-filter: blur(6px);
@@ -4746,7 +4748,7 @@ p {
     color: #6c757d;
     font-style: italic;
     margin-bottom: 30px;
-    font-size: 0.9em;
+    font-size: 1.26em;
 }
 
 .legal-content section {
@@ -4765,7 +4767,7 @@ p {
 
 .legal-content h2 {
     color: #1762c4;
-    font-size: 1.15rem;
+    font-size: 1.61rem;
     font-weight: 700;
     margin-bottom: 12px;
     margin-top: 0;
@@ -4788,7 +4790,7 @@ p {
     line-height: 1.75;
     margin-bottom: 12px;
     color: #444;
-    font-size: 0.97rem;
+    font-size: 1.358rem;
 }
 
 .legal-content ul {
@@ -4801,7 +4803,7 @@ p {
     margin-bottom: 8px;
     line-height: 1.6;
     color: #555;
-    font-size: 0.95rem;
+    font-size: 1.33rem;
     padding-left: 22px;
     position: relative;
 }
@@ -4813,7 +4815,7 @@ p {
     color: #1762c4;
     position: absolute;
     left: 0;
-    font-size: 0.82rem;
+    font-size: 1.148rem;
     top: 3px;
 }
 
@@ -4831,7 +4833,7 @@ p {
 .status-badge {
     padding: 8px 16px;
     border-radius: 20px;
-    font-size: 0.85rem;
+    font-size: 1.19rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -4865,7 +4867,7 @@ p {
 
 /* Enhanced Detail Values for Customer Shipments */
 .detail-value {
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: #000000;
     font-weight: 600;
     line-height: 1.4;
@@ -4874,7 +4876,7 @@ p {
 /* Improved Tracking Number Display */
 .tracking-number {
     font-family: 'Courier New', monospace;
-    font-size: 1.1rem;
+    font-size: 1.54rem;
     font-weight: 700;
     color: #000000;
     letter-spacing: 1px;
@@ -4889,7 +4891,7 @@ p {
     }
 
     .legal-hero h1 {
-        font-size: 1.9rem;
+        font-size: 2.66rem;
     }
 
     .legal-container {
@@ -4902,7 +4904,7 @@ p {
     }
 
     .legal-content h2 {
-        font-size: 1.05rem;
+        font-size: 1.47rem;
     }
 }
 
@@ -4970,7 +4972,7 @@ body {
 .nav-logo strong,
 .footer-logo strong {
     color: var(--brand-blue);
-    font-size: 1.05rem;
+    font-size: 1.47rem;
     font-weight: 800;
 }
 
@@ -4978,7 +4980,7 @@ body {
 .footer-logo small {
     margin-top: 1px;
     color: #30343c;
-    font-size: 0.74rem;
+    font-size: 1.036rem;
     font-weight: 500;
     letter-spacing: 0.01em;
     text-transform: none;
@@ -4986,7 +4988,7 @@ body {
 
 .nav-link {
     color: #33343a;
-    font-size: 0.77rem;
+    font-size: 1.078rem;
     font-weight: 500;
     letter-spacing: 0.035em;
     text-transform: uppercase;
@@ -5111,7 +5113,7 @@ body {
     gap: 9px;
     margin: 0 0 17px;
     color: #fff;
-    font-size: 0.77rem;
+    font-size: 1.078rem;
     font-weight: 800;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -5126,7 +5128,7 @@ body {
 .hero-title {
     margin-bottom: 22px;
     color: #fff;
-    font-size: clamp(2.8rem, 5vw, 4rem);
+    font-size: clamp(3.92rem, 5vw, 5.6rem);
     font-weight: 800;
     letter-spacing: -0.055em;
     line-height: 1.03;
@@ -5142,7 +5144,7 @@ body {
     max-width: 510px;
     margin-bottom: 20px;
     color: rgba(255, 255, 255, 0.92);
-    font-size: 1rem;
+    font-size: 1.4rem;
     line-height: 1.8;
 }
 
@@ -5159,7 +5161,7 @@ body {
     gap: 10px;
     min-height: 48px;
     padding: 12px 23px;
-    font-size: 0.85rem;
+    font-size: 1.19rem;
     font-weight: 700;
 }
 
@@ -5180,7 +5182,7 @@ body {
     gap: 13px 20px;
     margin-top: 32px;
     color: #fff;
-    font-size: 0.7rem;
+    font-size: 0.98rem;
 }
 
 .hero-assurance span {
@@ -5199,7 +5201,7 @@ body {
     border-radius: 50%;
     color: var(--brand-blue);
     background: #fff;
-    font-size: 0.95rem;
+    font-size: 1.33rem;
 }
 
 .hero-assurance span b,
@@ -5209,12 +5211,12 @@ body {
 
 .hero-assurance span b {
     color: #fff;
-    font-size: 0.7rem;
+    font-size: 0.98rem;
 }
 
 .hero-assurance span small {
     color: rgba(255,255,255,0.78);
-    font-size: 0.64rem;
+    font-size: 0.896rem;
 }
 
 .hero-assurance span small {
@@ -5249,7 +5251,7 @@ body {
     border-radius: 999px;
     color: #fff;
     background: #ffb800;
-    font-size: 0.68rem;
+    font-size: 0.952rem;
     font-weight: 700;
 }
 
@@ -5275,7 +5277,7 @@ body {
     align-items: center;
     gap: 9px;
     color: var(--brand-blue);
-    font-size: 1.35rem;
+    font-size: 1.89rem;
 }
 
 .hero-deliveries strong i {
@@ -5286,13 +5288,13 @@ body {
     border-radius: 50%;
     color: white;
     background: var(--brand-blue);
-    font-size: 0.8rem;
+    font-size: 1.12rem;
 }
 
 .hero-deliveries span,
 .hero-deliveries small {
     padding-left: 40px;
-    font-size: 0.72rem;
+    font-size: 1.008rem;
 }
 
 .hero-deliveries small {
@@ -5346,13 +5348,13 @@ body {
 .track-form h3 {
     margin: 0 0 3px;
     color: var(--brand-navy);
-    font-size: 1.05rem;
+    font-size: 1.47rem;
 }
 
 .track-form-heading p {
     margin: 0;
     color: var(--muted);
-    font-size: 0.81rem;
+    font-size: 1.134rem;
 }
 
 .track-form .service-notice {
@@ -5362,7 +5364,7 @@ body {
     color: #6a7b8e;
     background: transparent;
     border: 0;
-    font-size: 0.77rem;
+    font-size: 1.078rem;
 }
 
 .track-input-group {
@@ -5379,12 +5381,12 @@ body {
 .track-input-group input {
     min-width: 0;
     padding: 12px 14px;
-    font-size: 0.9rem;
+    font-size: 1.26rem;
 }
 
 .btn-track {
     border-radius: 0 4px 4px 0;
-    font-size: 0.88rem;
+    font-size: 1.232rem;
 }
 
 .services {
@@ -5404,7 +5406,7 @@ body {
 .section-header h2 {
     margin-bottom: 13px;
     color: var(--brand-navy);
-    font-size: clamp(2rem, 3.2vw, 2.8rem);
+    font-size: clamp(2.8rem, 3.2vw, 3.92rem);
     font-weight: 800;
     letter-spacing: -0.045em;
 }
@@ -5442,12 +5444,12 @@ body {
     border-radius: 7px;
     background: #eaf3fc;
     color: var(--brand-blue);
-    font-size: 1.25rem;
+    font-size: 1.75rem;
 }
 
 .service-card h3 {
     color: var(--brand-navy);
-    font-size: 1.2rem;
+    font-size: 1.68rem;
 }
 
 .service-card p,
@@ -5469,7 +5471,7 @@ body {
     align-items: center;
     gap: 9px;
     color: var(--brand-blue);
-    font-size: 0.86rem;
+    font-size: 1.204rem;
     font-weight: 700;
     text-decoration: none;
 }
@@ -5542,7 +5544,7 @@ body {
 .about-text h2 {
     margin: 0 0 23px;
     color: var(--brand-navy);
-    font-size: clamp(1.7rem, 3vw, 2.15rem);
+    font-size: clamp(2.38rem, 3vw, 3.01rem);
     font-weight: 800;
     letter-spacing: -0.045em;
 }
@@ -5550,20 +5552,20 @@ body {
 .about-text p {
     margin-bottom: 17px;
     color: #74808e;
-    font-size: 0.88rem;
+    font-size: 1.232rem;
     line-height: 1.7;
 }
 
 .about-list-title {
     margin: 24px 0 12px;
     color: var(--brand-navy);
-    font-size: 1.12rem;
+    font-size: 1.568rem;
 }
 
 .about-list-title {
     margin: 23px 0 14px;
     color: var(--brand-navy);
-    font-size: 1.03rem;
+    font-size: 1.442rem;
 }
 
 .about-service-list {
@@ -5579,12 +5581,12 @@ body {
     align-items: center;
     gap: 9px;
     color: #333a4a;
-    font-size: 0.78rem;
+    font-size: 1.092rem;
 }
 
 .about-service-list i {
     color: var(--brand-blue);
-    font-size: 0.85rem;
+    font-size: 1.19rem;
 }
 
 .welcome-visual {
@@ -5618,12 +5620,12 @@ body {
 }
 
 .experience-badge strong {
-    font-size: 1.75rem;
+    font-size: 2.45rem;
     line-height: 1.1;
 }
 
 .experience-badge span {
-    font-size: 0.65rem;
+    font-size: 0.91rem;
     font-weight: 700;
 }
 
@@ -5670,13 +5672,13 @@ body {
 .benefit-item h3 {
     margin: 0 0 3px;
     color: var(--brand-navy);
-    font-size: 0.96rem;
+    font-size: 1.344rem;
 }
 
 .benefit-item p {
     margin: 0;
     color: var(--muted);
-    font-size: 0.73rem;
+    font-size: 1.022rem;
 }
 
 .benefits-image {
@@ -5708,6 +5710,48 @@ body {
     box-shadow: 0 16px 34px rgba(28, 39, 82, 0.15);
 }
 
+.choose-visual {
+    position: relative;
+    padding: 0 0 9px;
+}
+
+.choose-visual > img {
+    display: block;
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 16px 34px rgba(28, 39, 82, 0.15);
+}
+
+.customer-badge {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    width: 112px;
+    min-height: 82px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px 6px;
+    color: #fff;
+    background: var(--brand-blue);
+    text-align: center;
+    box-shadow: 0 10px 24px rgba(46, 48, 177, 0.25);
+}
+
+.customer-badge strong {
+    font-size: 1.96rem;
+    line-height: 1.1;
+    white-space: nowrap;
+}
+
+.customer-badge span {
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
 .choose-copy .section-eyebrow {
     margin-bottom: 9px;
 }
@@ -5715,13 +5759,13 @@ body {
 .choose-copy h2 {
     margin-bottom: 17px;
     color: var(--brand-navy);
-    font-size: clamp(1.7rem, 3vw, 2.15rem);
+    font-size: clamp(2.38rem, 3vw, 3.01rem);
 }
 
 .choose-copy > p {
     margin-bottom: 23px;
     color: var(--muted);
-    font-size: 0.83rem;
+    font-size: 1.162rem;
     line-height: 1.7;
 }
 
@@ -5741,7 +5785,7 @@ body {
 .choose-copy li > i {
     width: 23px;
     height: 23px;
-    font-size: 0.7rem;
+    font-size: 0.98rem;
 }
 
 .choose-copy li strong,
@@ -5751,13 +5795,13 @@ body {
 
 .choose-copy li strong {
     color: var(--brand-navy);
-    font-size: 0.88rem;
+    font-size: 1.232rem;
 }
 
 .choose-copy li small {
     margin-top: 4px;
     color: var(--muted);
-    font-size: 0.68rem;
+    font-size: 0.952rem;
 }
 
 .stats-grid {
@@ -5895,7 +5939,7 @@ body {
     }
 
     .hero-title {
-        font-size: clamp(2.8rem, 12vw, 4rem);
+        font-size: clamp(3.92rem, 12vw, 5.6rem);
     }
 
     .hero-image {
@@ -5943,7 +5987,7 @@ body {
 
 @media (max-width: 480px) {
     .nav-logo strong {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 
     .nav-logo > i {
@@ -5978,7 +6022,7 @@ body {
     }
 
     .section-header h2 {
-        font-size: 1.9rem;
+        font-size: 2.66rem;
     }
 }
 
@@ -6001,14 +6045,14 @@ body {
     max-width: 760px;
     margin: 14px 0;
     color: #fff;
-    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    font-size: clamp(3.08rem, 5vw, 4.9rem);
     line-height: 1.12;
 }
 
 .subpage-hero > .container > p:not(.service-notice) {
     max-width: 660px;
     color: rgba(255,255,255,0.86);
-    font-size: 1.08rem;
+    font-size: 1.512rem;
     line-height: 1.7;
 }
 
@@ -6136,7 +6180,7 @@ body {
 
     .hero-title {
         max-width: 600px;
-        font-size: clamp(2.55rem, 10vw, 3.5rem);
+        font-size: clamp(3.57rem, 10vw, 4.9rem);
     }
 
     .hero-image {
@@ -6173,6 +6217,14 @@ body {
         height: 300px;
     }
 
+    .choose-visual > img {
+        height: 300px;
+    }
+
+    .customer-badge {
+        left: 0;
+    }
+
     .nav-menu {
         gap: 16px;
     }
@@ -6184,7 +6236,7 @@ body {
     }
 
     .hero-title {
-        font-size: clamp(2.35rem, 11vw, 3rem);
+        font-size: clamp(3.29rem, 11vw, 4.2rem);
     }
 
     .hero-assurance {
@@ -6217,6 +6269,10 @@ body {
     }
 
     .choose-layout > img {
+        height: 235px;
+    }
+
+    .choose-visual > img {
         height: 235px;
     }
 }
